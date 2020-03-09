@@ -1,4 +1,4 @@
 ## Steelers Fan Club Website
 ---
 
-![screenshot](//alt3-4.png)
+![](images/headers/alt3-4.png)
