@@ -1,0 +1,2092 @@
+        img,
+p {
+    width: 100%
+}
+
+dfn,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-style: italic
+}
+
+.wrapper>*,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block
+}
+
+#news-feed,
+#schedule {
+    border-bottom: 5px solid #000
+}
+
+address a,
+article a {
+    text-decoration: none
+}
+
+address a:hover,
+article a:hover {
+    text-decoration: underline
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    background-color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 10px
+}
+
+body {
+    margin: 0;
+    font-size: 1em
+}
+
+audio,
+canvas,
+progress,
+video {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden],
+template {
+    display: none
+}
+
+a {
+    background-color: transparent
+}
+
+a:active,
+a:hover,
+button:focus {
+    outline: 0
+}
+
+abbr[title] {
+    border-bottom: 1px dotted
+}
+
+b,
+optgroup,
+strong {
+    font-weight: 700
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    top: -.5em
+}
+
+sub {
+    bottom: -.25em
+}
+
+img {
+    border: 0;
+    color: #fff;
+    vertical-align: top;
+    margin: 0 auto
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+figure {
+    margin: 1em 40px
+}
+
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0
+}
+
+pre,
+textarea {
+    overflow: auto
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0
+}
+
+.wrapper,
+p,
+table {
+    font-weight: 700
+}
+
+button {
+    overflow: visible
+}
+
+button,
+select {
+    text-transform: none
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+button[disabled],
+html input[disabled] {
+    cursor: default
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+input {
+    line-height: normal
+}
+
+input[type=checkbox],
+input[type=radio] {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+input[type=search] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    border: 0;
+    padding: 0
+}
+
+td,
+th {
+    padding: 0
+}
+
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+noscript {
+    font-size: 3em
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center
+}
+
+p {
+    max-width: 1366px;
+    text-align: left;
+    padding: 25px;
+    font-size: 1.6rem
+}
+
+.wrapper,
+.wrapper>* {
+    min-width: 320px;
+    max-width: 1920px;
+    margin: auto;
+    width: 100%
+}
+
+#upcoming-events p,
+#weekly-specials p,
+.footer p,
+.table-data,
+.weekly-winners p,
+.wrapper {
+    text-align: center
+}
+
+#mobile-header {
+    display: block;
+    width: 100%
+}
+
+#desktop-header,
+.main-content-test {
+    display: none
+}
+
+.content-section-column,
+.content-section-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    width: 100%
+}
+
+.content {
+    background: #fff;
+    width: 100%
+}
+
+.content-section {
+    width: 100%;
+    background: #fff;
+    color: #000
+}
+
+#black-divider,
+#menu-btn img,
+.footer,
+.sidebar {
+    background: #000
+}
+
+.content-section-row {
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.content-section-column,
+.sidebar {
+    display: -ms-flexbox;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal
+}
+
+.content-section-column {
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+#address-info,
+#header-nav-container,
+#header-nav-content-container,
+.sidebar {
+    display: -webkit-flex;
+    display: -webkit-box
+}
+
+.sidebar {
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+#photo-gallery {
+    display: none
+}
+
+.footer {
+    width: 100%;
+    color: #fff
+}
+
+.footer p {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+    font-size: 1em
+}
+
+#black-divider {
+    width: 100%;
+    height: 0;
+    color: green
+}
+
+#black-divider h4 {
+    display: inline-block;
+    color: #ffb600;
+    padding: 10px 0;
+    margin: 0 auto;
+    font-size: 1.4rem
+}
+
+header h1 {
+    margin: 0;
+    padding: 10px 0;
+    max-height: 85px;
+    font-size: 2.2rem
+}
+
+#header-title {
+    padding: 5px
+}
+
+#header-nav-container {
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px
+}
+
+#header-nav-content-container {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+#menu-btn {
+    margin-right: 3%
+}
+
+#menu-btn img {
+    width: 32px;
+    height: 32px;
+    border-radius: 2px;
+    margin: 0 auto
+}
+
+#facebook-icon img {
+    width: 32px;
+    height: 32px;
+    background: #000;
+    margin: 0 auto
+}
+
+.fa-facebook-official {
+    color: #000;
+    background: gold;
+    width: 32px;
+    height: 32px
+}
+
+#welcome-image {
+    height: 141px;
+    background: url(../images/phones/welcome/welcome-360-dark.jpg) center top no-repeat
+}
+
+#welcome-image h2 {
+    width: auto;
+    background: rgba(0, 0, 0, .9);
+    color: #fff;
+    margin-bottom: 70px;
+    font-size: 3.5rem;
+    border-radius: 5px;
+    padding: 0 1rem
+}
+
+#address-image {
+	background-color: black;
+    height: 200px;
+    color: #fff;
+    /*background: url(../images/phones/address/zone-360.png) 0 no-repeat;*/
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#left-section-flexbox {
+    width: 0%;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0%;
+    -ms-flex: 1 0%;
+    flex: 1 0%
+}
+
+#address-info {
+    padding: 15px;
+    background: rgba(0, 0, 0, 1);
+    width: 100%;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 100%;
+    -ms-flex: 1 100%;
+    flex: 1 100%;
+    height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+#club-stats-info,
+#next-game-content {
+    display: -webkit-flex;
+    -webkit-box-align: center
+}
+
+address {
+    font-size: 1.2rem;
+    font-style: normal;
+}
+
+address a {
+    color: #ffb600;
+}
+
+.zone-text-left {
+    width: 100%;
+}
+
+.zone-text-left h2 {
+    font-size: 1.6em;
+    padding: 0;
+    margin: 0 0 2px;
+}
+
+#club-stats-image h2,
+#membership-image h2 {
+    background: rgba(0, 0, 0, .9);
+    color: #fff;
+    font-size: 3.5rem;
+    border-radius: 5px;
+}
+
+.zone-text-left img {
+    width: 32px;
+    height: 32px;
+}
+
+#membership-image {
+    height: 141px;
+    background: url(../images/phones/prizes/prizes-360-dark.png) center top no-repeat;
+}
+
+#membership-image h2 {
+    width: auto;
+    padding: 0 1rem;
+}
+
+#membership-info table {
+    width: 75%;
+}
+
+#membership-info td {
+    font-size: 1.5rem;
+    width: 33.33%;
+    background: #fff;
+}
+
+.price-section {
+    border-top: 2px solid #000;
+    padding-bottom: 15px;
+}
+
+#membership-info p {
+    padding: 15px 25px;
+}
+
+#next-game-image {
+    height: 141px;
+    background: url(../images/phones/next-game/next-game-360-dark.png) center top no-repeat;
+}
+
+.logo-container {
+    width: 30%;
+    height: 100%;
+}
+
+#next-game-content-container {
+    width: 40%;
+    height: 100%;
+}
+
+#next-game-content {
+    width: 100%;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#next-game {
+    margin: 0 0 10px;
+    font-size: 2.3rem;
+}
+
+#home-away {
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 2.5rem;
+}
+
+#next-game-date {
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;
+}
+
+.team-logo {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.team-logo img {
+    max-width: 600px;
+    width: 100%;
+    padding: 10px;
+}
+
+#next-game-text h1 {
+    margin-bottom: 0;
+}
+
+#next-game-text p {
+    padding-top: 5px;
+}
+
+#club-stats-image {
+    height: 141px;
+    background: url(../images/phones/sn/sn-360-dark.png) center top no-repeat;
+}
+
+#club-stats-image h2 {
+    width: auto;
+    margin-top: 5%;
+    padding: 0 1rem;
+}
+
+#club-stats-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+#upcoming-events,
+.weekly-winners {
+    background: #fff;
+    height: auto;
+}
+
+#menu,
+#schedule h2,
+#news-feed h2,
+#upcoming-events h2,
+#weekly-specials h2,
+.weekly-winners h2 {
+    background: #000;
+    color: #ffb600;
+}
+
+#upcoming-events h2 {
+    font-size: 3rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#upcoming-events p {
+    padding-top: 10px;
+}
+
+#upcoming-events td {
+    text-align: center;
+    padding: 5px;
+}
+
+.weekly-winners h2 {
+    font-size: 3rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.weekly-winners p {
+    padding-top: 10px;
+}
+
+#weekly-specials {
+    width: 100%;
+    background: #fff;
+    border-bottom: 15px solid #fff;
+}
+
+#weekly-specials h2 {
+    font-size: 3rem;
+    padding: 5px;
+}
+
+#weekly-specials h4 {
+    font-size: 1.8em;
+    font-style: normal;
+}
+
+#weekly-specials ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#weekly-specials p {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.4em;
+    padding: 5px;
+}
+
+#menu {
+    margin-top: 5px;
+    width: 85px;
+    height: 30px;
+    border: none;
+    font-size: 1.4em;
+    border-radius: 2px;
+}
+
+#menu:hover {
+    background: #ffb600;
+    color: #000;
+}
+
+#schedule {
+    background: #fff;
+    color: #000;
+    font-size: 2rem;
+    height: auto;
+}
+
+#schedule h2, #news-feed h2 {
+    font-size: 3rem;
+    padding: 5px;
+}
+
+#schedule h3 {
+    padding: 5px;
+}
+
+#playoffs-title {
+    margin-top: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.3rem;
+}
+
+.pre-season-label,
+.regular-season-label {
+    background: #eee;
+    padding: 5px;
+}
+
+.table-data {
+    width: 30%;
+    padding: 5px 0;
+}
+
+.table-img {
+    width: 36%;
+    text-align: left;
+    padding: 6px 0;
+}
+
+.mini-logo {
+    background-image: url(../images/team-logos/mini-logos/sprites/mini-logo-sprites.png);
+    margin: 0 5px 0 10px;
+    float: left;
+    width: 30px;
+    height: 15px;
+    background-size: 400%;
+}
+
+.icon-bears-mini {
+    background-position: 0 -90px
+}
+
+.icon-bengals-mini {
+    background-position: 0 -15px
+}
+
+.icon-bills-mini {
+    background-position: 0 -60px
+}
+
+.icon-giants-mini {
+    background-position: -60px -45px
+}
+
+.icon-browns-mini {
+    background-position: -30px -15px
+}
+
+.icon-cowboys-mini {
+    background-position: -60px 0
+}
+
+.icon-dolphins-mini {
+    background-position: -60px -15px
+}
+
+.icon-eagles-mini {
+    background-position: -60px -30px
+}
+
+.icon-falcons-mini {
+    background-position: -30px -90px
+}
+
+.icon-jets-mini {
+    background-position: -30px -60px
+}
+
+.icon-chargers-mini {
+    background-position: -30px -30px
+}
+
+.icon-chiefs-mini {
+    background-position: 0 -45px
+}
+
+.icon-colts-mini {
+    background-position: -30px -45px
+}
+
+.icon-lions-mini {
+    background-position: -60px -90px
+}
+
+.icon-packers-mini {
+    background-position: -60px -60px
+}
+
+.icon-panthers-mini {
+    background-position: 0 -75px
+}
+
+.icon-patriots-mini {
+    background-position: -30px -75px
+}
+
+.icon-raiders-mini {
+    background-position: 0 -60px
+}
+
+.icon-rams-mini {
+    background-position: -30px -60px
+}
+
+.icon-ravens-mini {
+    background-position: -90px -15px
+}
+
+.icon-redskins-mini {
+    background-position: -90px -30px
+}
+
+.icon-sanfran-mini {
+    background-position: 0 -75px
+}
+
+.icon-seahawks-mini {
+    background-position: -30px -75px
+}
+
+.icon-titans-mini {
+    background-position: 0 -105px
+}
+
+.icon-texans-mini {
+    background-position: -90px -90px
+}
+
+.icon-vikings-mini {
+    background-position: -90px -75px
+}
+
+#news-feed,
+#news-feed-img-container {
+    background: #000;
+    width: 100%
+}
+
+.table-data-left {
+    width: 30%;
+    font-size: 1.3rem;
+    text-align: left;
+    margin-top: 10px
+}
+
+tr:nth-child(even) {
+    background: #eee
+}
+
+#schedule img {
+    padding-right: 5px;
+    padding-left: 5px;
+    max-width: 33px;
+    max-height: 23px
+}
+
+#news-feed {
+    display: block;
+    text-align: center;
+    border-top: 5px solid #000
+}
+
+#news-feed img {
+    max-width: 307px;
+    padding-bottom: 5px
+}
+
+#article-container {
+    height: 375px;
+    width: 100%;
+    color: #000;
+    background: #fff;
+    overflow: hidden
+}
+
+#article1,
+#article2,
+#article3 {
+    transition: all .5s ease
+}
+
+#article1,
+#article2 {
+    border-bottom: 1px dashed #ccc
+}
+
+article {
+    width: 95%;
+    margin: 0 auto;
+    padding: 5px
+}
+
+article h2,
+article h3,
+article h4 {
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    text-align: left
+}
+
+article h2 {
+    font-size: 1.7em
+}
+
+article h3 {
+    color: #666;
+    font-size: 1.4em;
+    padding: 5px 0
+}
+
+article h4 {
+    color: #000;
+    font-size: 1.2em
+}
+
+article a {
+    color: #000
+}
+
+.business-section {
+    display: block;
+    font-size: 2rem;
+    width: 100%;
+    background: #fff;
+    border-bottom: none
+}
+
+.business-section h2 {
+    font-size: 3rem;
+    background: #000;
+    color: #ffb600;
+    padding-bottom: 5px
+}
+
+.business-container p {
+    padding: 0;
+    font-size: 1em;
+    text-align: center
+}
+
+.business-container h4 {
+    font-style: normal;
+    text-align: left;
+    padding-left: 25px
+}
+
+.business-container img {
+    margin-top: 15px;
+    width: 200px
+}
+
+.business-contact-info a {
+    text-decoration: none;
+    color: #00008b
+}
+
+.business-contact-info a:hover {
+    text-decoration: underline
+}
+
+.business-contact-info p a {
+    color: #000;
+    text-decoration: none
+}
+
+.business-contact-info p a:hover {
+    text-decoration: underline
+}
+
+.business-info {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: 1.7rem;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #000
+}
+
+#how-to-add-business p {
+    width: 85%;
+    margin: 0 auto;
+    font-size: 1.5rem
+}
+
+.up-arrow {
+    width: 32px;
+    height: 32px;
+    margin-top: 15px;
+    border-radius: 2px
+}
+
+@media screen and (min-width:361px) and (max-width:480px) {
+    #welcome-image {
+        height: 188px;
+        background: url(../images/phones/welcome/welcome-480-dark.jpg) center top no-repeat;
+        background-size: 100% 100%
+    }
+    #welcome-image h2 {
+        font-size: 4rem;
+        margin-bottom: 85px
+    }
+    address {
+        font-size: 1.3em
+    }
+    #address-image {
+        height: 235px;
+        /*background: url(../images/phones/address/zone-640.png) 0 no-repeat;*/
+        background-size: 100% 100%
+    }
+    .zone-text-left h2 {
+        font-size: 1.8em
+    }
+    #membership-image {
+        height: 188px;
+        background: url(../images/phones/prizes/prizes-480-dark.png) center top no-repeat;
+        background-size: 100% 100%
+    }
+    #club-stats-image h2,
+    #membership-image h2 {
+        font-size: 4rem
+    }
+    #next-game-image {
+        height: 188px;
+        background: url(../images/phones/next-game/next-game-480-dark.png) center top no-repeat;
+        background-size: 100% 100%
+    }
+    #next-game {
+        font-size: 2.6em
+    }
+    #home-away {
+        font-size: 3.5em
+    }
+    #next-game-date {
+        font-size: 1.2em
+    }
+    #club-stats-image {
+        height: 188px;
+        background: url(../images/phones/sn/sn-480-dark.png) center top no-repeat;
+        background-size: 100% 100%
+    }
+    #article-container {
+        padding-top: 5px;
+        height: 335px
+    }
+    .footer p {
+        font-size: 1em
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:639px) {
+    #facebook-icon img,
+    #menu-btn img {
+        width: 48px;
+        height: 48px;
+        border-radius: 2px
+    }
+    #fb-btn-black,
+    #menu-btn img,
+    .btn-section {
+        border-radius: 2px
+    }
+    #menu-btn img {
+        margin-right: 3%
+    }
+    .btn-section {
+        width: 30px;
+        height: 5px;
+        margin-bottom: 5px
+    }
+    .up-arrow {
+        width: 48px;
+        height: 48px;
+        margin-top: 15px
+    }
+    p {
+        max-width: 639px;
+        font-size: 2.4rem
+    }
+    #black-divider h4 {
+        padding: 15px 0;
+        margin: 0 auto;
+        font-size: 1.8rem
+    }
+    #welcome-image {
+        height: 250px;
+        background: url(../images/phones/welcome/welcome-640-dark.jpg) center top no-repeat;
+        background-size: 100% 100%
+    }
+    #welcome-image h2 {
+        font-size: 4.8rem;
+        margin-bottom: 21%
+    }
+    address {
+        font-size: 2em
+    }
+    #address-info {
+        max-width: 500px
+    }
+    #address-image {
+        height: 300px;
+        /*background: url(../images/phones/address/zone-800.png) 0 no-repeat;*/
+        background-size: 100% 100%;
+        color: #fff
+    }
+    .zone-text-left h2 {
+        font-size: 2.5em
+    }
+    .zone-text-left img {
+        width: 48px;
+        height: 48px
+    }
+    #membership-image {
+        height: 250px;
+        background: url(../images/phones/prizes/prizes-640-dark.png) center top no-repeat;
+        background-size: 100% 100%
+    }
+    #club-stats-image h2,
+    #membership-image h2 {
+        font-size: 4.5rem
+    }
+    #membership-info table {
+        width: 80%
+    }
+    #membership-info td {
+        font-size: 2rem
+    }
+    #next-game-image {
+        height: 250px;
+        background: url(../images/phones/next-game/next-game-640-dark.png) center top no-repeat;
+        background-size: 100% 100%
+    }
+    #next-game-text h1 {
+        font-size: 3em;
+        margin: 15px 0
+    }
+    #next-game {
+        font-size: 3.5em
+    }
+    #home-away {
+        font-size: 4.4em
+    }
+    #next-game-date {
+        font-size: 1.6em
+    }
+    #club-stats-image {
+        height: 250px;
+        background: url(../images/phones/sn/sn-640-dark.png) center top no-repeat;
+        background-size: 100% 100%
+    }
+    #upcoming-events h2,
+    .weekly-winners h2 {
+        font-size: 3.3rem
+    }
+    .table-data-left,
+    table {
+        font-size: 1.7rem
+    }
+    .table-img {
+        padding: 6px 2%
+    }
+    .table-data-left {
+        width: 30%;
+        text-align: left;
+        margin-top: 10px
+    }
+    #weekly-specials h4,
+    article h2 {
+        font-size: 2em
+    }
+    #weekly-specials h2 {
+        font-size: 3em;
+        margin: 0 0 2px
+    }
+    #weekly-specials p {
+        font-size: 1.7em;
+        text-align: center
+    }
+    #menu {
+        margin: 5px;
+        font-size: 1.5em;
+        width: 90px;
+        height: 35px
+    }
+    #schedule img {
+        padding-right: 5px;
+        padding-left: 5px;
+        max-width: 45px;
+        max-height: 35px
+    }
+    .mini-logo {
+        width: 38px;
+        height: 19px
+    }
+	.icon-bears-mini {
+        background-position: 0 -114px
+    }	
+    .icon-bengals-mini {
+        background-position: 0 -19px
+    }
+    .icon-bills-mini {
+        background-position: 0 -76px
+    }
+    .icon-broncos-mini {
+        background-position: -38px 0
+    }
+    .icon-browns-mini {
+        background-position: -38px -19px
+    }
+    .icon-cardinals-mini {
+        background-position: 0 -38px
+    }
+    .icon-chargers-mini {
+        background-position: -38px -38px
+    }
+    .icon-chiefs-mini {
+        background-position: 0 -57px
+    }
+    .icon-colts-mini {
+        background-position: -38px -57px
+    }
+    .icon-cowboys-mini {
+        background-position: -76px 0
+    }
+    .icon-dolphins-mini {
+        background-position: -76px -19px
+    }
+    .icon-eagles-mini {
+        background-position: -76px -38px
+    }
+	.icon-falcons-mini {
+        background-position: -38px -114px
+    }
+    .icon-giants-mini {
+        background-position: -76px -57px
+    }
+    .icon-jets-mini {
+        background-position: -38px -76px
+    }
+	.icon-lions-mini {
+        background-position: -76px -114px
+    }
+	.icon-packers-mini {
+        background-position: -76px -76px
+    }
+	.icon-panthers-mini {
+        background-position: 0 -95px
+    }
+    .icon-patriots-mini {
+        background-position: -38px -95px
+    }
+    .icon-raiders-mini {
+        background-position: 0 -76px
+    }
+    .icon-rams-mini {
+        background-position: -38px -76px
+    }
+    .icon-ravens-mini {
+        background-position: -114px -19px
+    }
+    .icon-redskins-mini {
+        background-position: -114px -38px
+    }
+    .icon-sanfran-mini {
+        background-position: -114px -95px
+    }
+    .icon-seahawks-mini {
+        background-position: -38px -95px
+    }
+	.icon-texans-mini {
+        background-position: -114px -114px
+    }
+	.icon-titans-mini {
+        background-position: 0 -133px
+    }
+	.icon-vikings-mini {
+        background-position: -114px -95px
+    }
+    #article-container {
+        padding-top: 5px;
+        height: 355px
+    }
+    article {
+        width: 95%;
+        margin: 0 auto;
+        padding: 5px
+    }
+    article h3 {
+        font-size: 1.7em;
+        padding: 5px 0
+    }
+    article h4 {
+        font-size: 1.4em
+    }
+    .business-section h2 {
+        font-size: 3.3rem
+    }
+    .business-info {
+        width: 85%;
+        font-size: 2rem;
+        margin: 0 auto;
+        padding-bottom: 25px;
+        border-bottom: 2px solid #000
+    }
+    #how-to-add-business p {
+        width: 85%;
+        font-size: 1.6rem
+    }
+    .footer p {
+        font-size: 1.5em
+    }
+}
+
+@media screen and (min-width:640px) and (max-width:800px) {
+    #facebook-icon img,
+    #menu-btn img {
+        width: 48px;
+        height: 48px;
+        border-radius: 2px
+    }
+    #menu-btn img {
+        margin-right: 3%
+    }
+    .btn-section {
+        width: 40px;
+        height: 6px;
+        margin-bottom: 6px;
+        border-radius: 2px
+    }
+    .up-arrow {
+        width: 48px;
+        height: 48px;
+        margin-top: 15px
+    }
+    p {
+        max-width: 800px;
+        font-size: 2.6rem
+    }
+    #black-divider h4 {
+        padding: 15px 0;
+        margin: 0 auto;
+        font-size: 2rem
+    }
+    #welcome-image {
+        height: 313px;
+        background: url(../images/phones/welcome/welcome-800-dark.jpg) center top no-repeat;
+        background-size: 100% 100%
+    }
+    #welcome-image h2 {
+        font-size: 6rem;
+        margin-bottom: 20%
+    }
+    address {
+        font-size: 1.9em
+    }
+    #address-image {
+        height: 313px;
+        /*background: url(../images/phones/address/zone-800.png) 0 no-repeat;*/
+        background-size: 100% 100%
+    }
+    .zone-text-left h2 {
+        font-size: 2.8em
+    }
+    #schedule h2,
+    #upcoming-events h2,
+    .weekly-winners h2 {
+        font-size: 4rem
+    }
+    .zone-text-left img {
+        width: 64px;
+        height: 64px
+    }
+    #membership-image {
+        height: 313px;
+        background: url(../images/phones/prizes/prizes-800-dark.png) center top no-repeat;
+        background-size: 100% 100%
+    }
+    #club-stats-image h2,
+    #membership-image h2 {
+        font-size: 5rem
+    }
+    #membership-info table {
+        width: 80%
+    }
+    #membership-info td {
+        font-size: 2.5rem
+    }
+    #membership-info h2 {
+        font-size: 2.2rem
+    }
+    #next-game-image {
+        height: 313px;
+        background: url(../images/phones/next-game/next-game-800-dark.jpg) center top no-repeat;
+        background-size: 100% 100%
+    }
+    #next-game-text h1 {
+        font-size: 3.5em;
+        margin: 15px 0
+    }
+    #next-game {
+        font-size: 4em
+    }
+    #home-away {
+        font-size: 4.9em
+    }
+    #next-game-date {
+        font-size: 2em
+    }
+    #club-stats-image {
+        height: 313px;
+        background: url(../images/phones/sn/sn-800-dark.png) center top no-repeat;
+        background-size: 100% 100%
+    }
+    #weekly-specials h2 {
+        font-size: 3.7em
+    }
+    #weekly-specials h4 {
+        font-size: 2.3em
+    }
+    #weekly-specials p {
+        font-size: 2em;
+        text-align: center
+    }
+    #menu {
+        margin: 5px;
+        font-size: 1.7em;
+        width: 100px;
+        height: 35px
+    }
+    table {
+        font-size: 2rem
+    }
+    .table-img {
+        padding: 6px 2% 6px 5%
+    }
+    .table-data-left {
+        width: 30%;
+        font-size: 2rem;
+        text-align: left;
+        margin-top: 10px
+    }
+    #schedule img {
+        padding-right: 5px;
+        padding-left: 5px;
+        max-width: 55px;
+        max-height: 45px
+    }
+    .mini-logo {
+        width: 50px;
+        height: 25px
+    }
+	.icon-bears-mini {
+        background-position: 0 -150px
+    }
+    .icon-bengals-mini {
+        background-position: 0 -25px
+    }
+    .icon-broncos-mini {
+        background-position: -50px 0
+    }
+    .icon-bills-mini {
+        background-position: 0 -100px
+    }
+    .icon-browns-mini {
+        background-position: -50px -25px
+    }
+    .icon-cardinals-mini {
+        background-position: 0 -50px
+    }
+    .icon-chargers-mini {
+        background-position: -50px -50px
+    }
+    .icon-chiefs-mini {
+        background-position: 0 -75px
+    }
+    .icon-colts-mini {
+        background-position: -50px -75px
+    }
+    .icon-cowboys-mini {
+        background-position: -100px 0
+    }
+    .icon-dolphins-mini {
+        background-position: -100px -25px
+    }
+    .icon-eagles-mini {
+        background-position: -100px -50px
+    }
+	.icon-falcons-mini {
+        background-position: -50px -150px
+    }
+    .icon-giants-mini {
+        background-position: -100px -75px
+    }
+	.icon-lions-mini {
+        background-position: -100px -150px
+    }
+    .icon-jets-mini {
+        background-position: -50px -100px
+    }
+	.icon-packers-mini {
+        background-position: -100px -100px
+    }
+	.icon-panthers-mini {
+        background-position: 0 -125px
+    }
+    .icon-patriots-mini {
+        background-position: -50px -125px
+    }
+    .icon-raiders-mini {
+        background-position: 0 -100px
+    }
+    .icon-rams-mini {
+        background-position: -50px -100px
+    }
+    .icon-ravens-mini {
+        background-position: -150px -25px
+    }
+    .icon-redskins-mini {
+        background-position: -150px -50px
+    }
+    .icon-sanfran-mini {
+        background-position: 0 -125px
+    }
+    .icon-seahawks-mini {
+        background-position: -50px -125px
+    }
+	.icon-texans-mini {
+        background-position: -150px -150px
+    }
+	.icon-titans-mini {
+        background-position: 0 -175px
+    }
+	.icon-vikings-mini {
+        background-position: -150px -125px
+    }
+    #article-container {
+        padding-top: 10px;
+        height: 390px
+    }
+    article {
+        width: 95%;
+        margin: 0 auto;
+        padding: 5px
+    }
+    article h2 {
+        font-size: 2.2em
+    }
+    article h3 {
+        font-size: 1.9em;
+        padding: 5px 0
+    }
+    article h4 {
+        font-size: 1.6em
+    }
+    .business-section h2 {
+        font-size: 4rem
+    }
+    .business-container img {
+        width: 250px
+    }
+    .business-info {
+        width: 85%;
+        font-size: 2.5rem;
+        margin: 0 auto;
+        padding-bottom: 25px;
+        border-bottom: 2px solid #000
+    }
+    #how-to-add-business p {
+        width: 85%;
+        font-size: 2rem
+    }
+    .footer p {
+        font-size: 1.7em
+    }
+    h5 {
+        font-size: 2.5rem
+    }
+}
+
+@media screen and (min-width:801px) and (max-width:1279px) {
+    .content,
+    .sidebar {
+        -webkit-box-flex: 1
+    }
+    #upcoming-events h2,
+    .weekly-winners h2 {
+        color: #ffb600
+    }
+    #upcoming-events h2,
+    #weekly-specials h2 {
+        border-top: 10px solid #fff;
+        border-left: 10px solid #fff;
+        border-right: 10px solid #fff
+    }
+    #news-feed,
+    #schedule h2,
+    .weekly-winners h2 {
+        border: 10px solid #fff
+    }
+    .main-content {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        background: #000;
+        box-shadow: 1px 1px 24px -6px rgba(0, 0, 0, .75)
+    }
+    #desktop-header {
+        display: block;
+        width: 100%;
+        position: relative;
+        Z-index: 5;
+        box-shadow: 1px 1px 24px 0 rgba(0, 0, 0, .75)
+    }
+    #mobile-header {
+        display: none
+    }
+    #black-divider {
+        height: 0
+    }
+    .content {
+        width: 56%;
+        -webkit-flex: 1 56%;
+        -ms-flex: 1 56%;
+        flex: 1 56%
+    }
+    #address-image,
+    #club-stats-image,
+    #membership-image,
+    #next-game-image,
+    #welcome-image {
+        position: relative;
+        Z-index: 2;
+        box-shadow: 1px 1px 24px -4px rgba(0, 0, 0, .75)
+    }
+    #photo-gallery,
+    .sidebar {
+        position: relative;
+        box-shadow: 1px 1px 24px -2px rgba(0, 0, 0, .75)
+    }
+    p {
+        max-width: 640px;
+        font-size: 2.1rem
+    }
+    #welcome-image {
+        height: 250px;
+        background: url(../images/phones/welcome/welcome-800-dark.jpg) center top no-repeat;
+        background-size: 100% 100%
+    }
+    #welcome-image h2 {
+        font-size: 5.5rem
+    }
+    address {
+        font-size: 1.8em
+    }
+    #address-image {
+        height: 275px;
+       /* background: url(../images/phones/address/zone-640.png) 0 no-repeat;*/
+        background-size: 100% 100%;
+        -webkit-box-ordinal-group: 2;
+        -webkit-order: 1;
+        -ms-flex-order: 1;
+        order: 1
+    }
+    #address-info {max-width:500px}
+	.zone-text-left h2{font-size:2.5em}
+	
+	#schedule h2,#upcoming-events h2,.weekly-winners h2{font-size:3rem;background:#000}
+	.zone-text-left img{width:48px;height:48px}
+	
+	#membership-image{height:250px;background:url(../images/phones/prizes/prizes-640-dark.png) center top no-repeat;background-size:100% 100%}#club-stats-image h2,#membership-image h2{font-size:4.5rem}#membership-info td{font-size:2rem}#next-game-image{height:250px;background:url(../images/phones/next-game/next-game-640-dark.png) 
+	 center top no-repeat;
+	 background-size:100% 100%;
+	-webkit-box-ordinal-group:2;
+	-webkit-order:1;
+	-ms-flex-order:1;
+	 order:1}
+	
+	#next-game-text h1{font-size:2.8em;margin:15px 0}
+	#next-game{font-size:3.2em}
+	#home-away{font-size:4em}
+	#next-game-date{font-size:1.6em}
+	#club-stats-image{height:250px;background:url(../images/phones/sn/sn-640-dark.png) center top no-repeat;background-size:100% 100%}
+	
+	#photo-gallery{display:block;Z-index:3;background:#fff;width:100%;font-size:0;padding:15px 0 0}
+	#photo-gallery h2{font-size:2.5rem;padding:0 0 10px;width:95%}
+	.album-year{margin:25px 0 0}
+	#photo-gallery h2 img{width:36px;height:36px;margin:10px auto 0}
+	#photo-gallery img{width:50%}
+	
+	.sidebar{width:42%;-webkit-flex:1 42%;-ms-flex:1 42%;flex:1 42%;Z-index:4}
+	
+	#menu,article h4{font-size:1.5em}
+	#weekly-specials{padding-top:20px}
+	#weekly-specials h2{font-size:2.5em}
+	#weekly-specials h4{font-size:2em}
+	#weekly-specials p{font-size:1.5em;text-align:center}
+	#menu{margin:10px;width:90px;height:35px}
+	
+	#schedule{background:#fff;color:#000;font-size:2rem;border-bottom:0;padding-bottom:10px}
+	table{font-size:1.4rem}
+	.table-img{padding:0}
+	#schedule h2{color:#ffb600;border-bottom:0}
+	#news-feed{display:block;text-align:center;height:auto}
+    #news-feed img{padding:10px;background:#000}
+	#article-container{height:450px}article{width:95%;margin:0 auto;padding:5px}article h2{font-size:1.9em}article h3{font-size:1.6em;padding:5px 0}
+	
+	.business-section{width:100%;background:#fff;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;border-bottom:none;padding-top:5px}
+	.business-section h2{font-size:3rem;background:#000;color:#ffb600;padding:5px;border:10px solid #fff}
+	.business-info{width:87%;font-size:1.7rem;margin:0 auto;padding-bottom:25px;border-bottom:2px solid #000}
+	#how-to-add-business p{width:85%;font-size:1.5rem}
+	.footer p{font-size:1.4em}}
+	
+	@media screen and (min-width:980px) and (max-width:1099px){
+	#article-container{padding-top:5px;height:425px}}
+	
+	@media screen and (min-width:1100px) and (max-width:1279px){
+	#article-container{padding-top:10px;height:400px}}
+	
+	@media screen and (min-width:1280px) and (max-width:1439px){
+	.content,.sidebar{-webkit-box-orient:vertical;-webkit-box-direction:normal}
+	#upcoming-events h2,#weekly-specials h2{border-top:10px solid #fff;border-left:10px solid #fff;border-right:10px solid #fff}
+	#mobile-header{display:none}
+	#desktop-header{display:block;position:relative;Z-index:5;box-shadow:1px 1px 24px 0 rgba(0,0,0,.75)}
+	#black-divider{height:0}
+	.main-content{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-moz-box-sizing:border-box;box-sizing:border-box;box-shadow:1px 1px 24px -6px rgba(0,0,0,.75);background:#000}
+	.content{width:69%;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-flex:1;-webkit-flex:1 69%;-ms-flex:1 69%;flex:1 69%}
+	.content-section{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}
+	.content-section-column,.content-section-row{-webkit-box-flex:1;-webkit-flex:1 50%;-ms-flex:1 50%;flex:1 50%}
+	
+	#address-image,#club-stats-image,#membership-image,#next-game-image,#welcome-image{position:relative;Z-index:2;box-shadow:1px 1px 24px -4px rgba(0,0,0,.75)}
+	
+	#photo-gallery,.sidebar{position:relative;box-shadow:1px 1px 24px -2px rgba(0,0,0,.75)}p{max-width:640px;font-size:1.7rem}
+	
+	#welcome-image{height:200px;background:url(../images/phones/welcome/welcome-640-dark.jpg) center top no-repeat;background-size:100% 100%}
+	#welcome-image h2{font-size:6rem}address{font-size:1.7em}
+	
+	#address-image{
+		height:225px;
+		/*background:url(../images/phones/address/zone-640.png) center top no-repeat;*/
+		background-size:100% 100%;
+		-webkit-box-ordinal-group:2;
+		-webkit-order:1;
+		-ms-flex-order:1;
+		order:1
+	}
+	
+	#address-info{background-position:0}
+	.zone-text-left h2{font-size:2.2em}
+	#membership-image{height:225px;background:url(../images/phones/prizes/prizes-640-dark.png) center top no-repeat;background-size:100% 100%}
+	#club-stats-image h2,
+	#membership-image h2{font-size:4.5rem}
+	#membership-info td{font-size:1.5rem}
+	
+	#next-game-image{height:188px;background:url(../images/phones/next-game/next-game-480-dark.png) center top no-repeat;background-size:100% 100%}
+	#next-game-text h1{font-size:3em;margin:15px 0}
+	#next-game{font-size:2.6em}
+	#home-away{font-size:3.5em}
+	#next-game-date{font-size:1.2em}
+	
+	#club-stats-image{height:188px;background:url(../images/phones/sn/sn-480-dark.png) center top no-repeat;background-size:100% 100%;-webkit-box-ordinal-group:2;-webkit-order:1;-ms-flex-order:1;order:1}
+	
+	#photo-gallery{display:block;Z-index:3;background:#fff;width:100%;font-size:0;padding:15px 0 0}
+	#photo-gallery h2{font-size:3rem}
+	.album-year{margin:15px 0 5px}
+	#photo-gallery h2 img{width:48px;height:48px;padding:5px;margin:0 auto}
+	#photo-gallery img{width:33.33%}
+	
+	.sidebar{width:30%;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-flex:1;-webkit-flex:1 30%;-ms-flex:1 30%;flex:1 30%;Z-index:4}
+	#upcoming-events{background:#fff;border-top:none}
+	#upcoming-events h2{font-size:3rem;background:#000;color:#ffb600}
+	#upcoming-events td{font-size:1.5rem;text-align:center;padding:5px}
+	
+	.weekly-winners{width:100%;background:#fff;display:block}
+	#schedule h2,.weekly-winners h2{background:#000;border:10px solid #fff}
+	.weekly-winners h2{font-size:3rem;color:#ffb600}
+	.weekly-winners p{padding-top:0;text-align:center}
+	.weekly-winners td{font-size:1.5rem;text-align:center;padding:5px}
+	
+	#weekly-specials{padding-top:15px}
+	#weekly-specials h2{font-size:2.5em}
+	#weekly-specials h4{font-size:2em}
+	#weekly-specials p{font-size:1.5em;text-align:center}
+	#menu{margin:5px;font-size:1.5em;width:90px;height:35px}
+	
+	#schedule{background:#fff;color:#000;font-size:2rem;border-bottom:0}
+	#schedule h2{font-size:3rem;color:#ffb600;border-bottom:0}
+	
+	table{width:100%;margin:0 auto}
+	.table-data{width:30%;text-align:center;font-size:1.5rem;padding:5px 0}
+	.table-data-left,.table-img{font-size:1.5rem;text-align:left}
+	.table-img{width:38%;padding:6px 0}
+	.table-data-left{width:30%;margin-top:10px}tr:nth-child(even){background:#eee}
+	#schedule img{padding-right:5px;padding-left:5px;max-width:50px;max-height:35px}
+	
+	
+	.mini-logo{width:38px;height:19px}
+	.icon-bears-mini{background-position:0 -114px}
+	.icon-bengals-mini{background-position:0 -19px}
+	.icon-bills-mini{background-position:0 -76px}
+	.icon-broncos-mini{background-position:-38px 0}
+	.icon-browns-mini{background-position:-38px -19px}
+	.icon-cardinals-mini{background-position:0 -38px}
+	.icon-chargers-mini{background-position:-38px -38px}
+	.icon-chiefs-mini{background-position:0 -57px}
+	.icon-colts-mini{background-position:-38px -57px}
+	.icon-cowboys-mini{background-position:-76px 0}
+	.icon-dolphins-mini{background-position:-76px -19px}
+	.icon-eagles-mini{background-position:-76px -38px}
+	.icon-falcons-mini{background-position:-38px -114px}
+	.icon-giants-mini{background-position:-76px -57px}
+	.icon-jets-mini{background-position:-38px -76px}
+	.icon-lions-mini{background-position:-76px -114px}
+	.icon-packers-mini{background-position:-76px -76px}
+	.icon-panthers-mini{background-position:0 -95px}
+	.icon-patriots-mini{background-position:-38px -95px}
+	.icon-raiders-mini{background-position:0 -76px}
+	.icon-rams-mini{background-position:-38px -76px}
+	.icon-ravens-mini{background-position:-114px -19px}
+	.icon-redskins-mini{background-position:-114px -38px}
+	.icon-sanfran-mini{background-position:0 -95px}
+	.icon-seahawks-mini{background-position:-38px -95px}
+	.icon-texans-mini{background-position:-114px -114px}
+	.icon-titans-mini{background-position:0 -133px}
+	.icon-vikings-mini{background-position:-114px -95px}
+	
+	#news-feed{display:block;text-align:center;border:10px solid #fff;height:auto}
+
+	#news-feed img{padding:15px;background:#000}
+	#article-container{height:400px;padding-top:10px}
+	article{width:95%;margin:0 auto;padding:5px}
+	article h2{font-size:1.8em}
+	article h3{font-size:1.6em;padding:5px 0}
+	article h4{font-size:1.3em}
+	
+	.steeler-links{display:block;height:100px;width:100%;background:#fff;font-size:2em}
+	.steeler-links h2{font-size:3rem;background:#eee}
+	
+	.business-section{width:100%;background:#fff;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;border-bottom:none;padding-top:5px}
+	.business-section h2{font-size:3rem;background:#000;color:#ffb600;padding:7px;border:10px solid #fff}
+	.business-info{font-size:1.7rem;width:87%;margin:0 auto;padding-bottom:25px;border-bottom:2px solid #000}
+	
+	#how-to-add-business p{width:87%;font-size:1.5rem}
+	.footer p{font-size:1.5em}}
+	
+	
+	@media screen and (min-width:1440px){
+		
+	.content,.sidebar{-webkit-box-orient:vertical;-webkit-box-direction:normal}
+	#upcoming-events h2,#weekly-specials h2{color:#ffb600;border-top:10px solid #fff;border-left:10px solid #fff;border-right:10px solid #fff}
+	#dropdown-panel,#mobile-header{display:none}
+	#desktop-header{display:block;position:relative;Z-index:5;box-shadow:1px 1px 24px 0 rgba(0,0,0,.25)}
+	#black-divider{height:0}
+	#black-divider 
+	h4{font-size:2rem}
+	
+	.main-content{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-moz-box-sizing:border-box;box-sizing:border-box;box-shadow:1px 1px 24px -6px rgba(0,0,0,.8);background:#000}
+	#photo-gallery,.sidebar{box-shadow:1px 1px 24px -2px rgba(0,0,0,.75);position:relative}
+	.content{width:69%;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-flex:1;-webkit-flex:1 69%;-ms-flex:1 69%;flex:1 69%}
+	.content-section{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}
+	#address-image,#club-stats-image,#membership-image,#next-game-image,#welcome-image{position:relative;Z-index:2;box-shadow:1px 1px 24px -4px rgba(0,0,0,.8)}
+	.content-section-column,.content-section-row{-webkit-box-flex:1;-webkit-flex:1 50%;-ms-flex:1 50%;flex:1 50%}
+	p{max-width:640px;font-size:2.2rem}
+	#welcome-image{height:275px;background:url(../images/phones/welcome/welcome-800-dark.jpg) center top no-repeat;background-size:100% 100%}
+	#welcome-p img{width:48px;height:48px}
+	#welcome-image h2{width:auto;border-radius:3px;margin-bottom:90px;font-size:6.8rem}address{font-size:2.1em}
+	
+	#address-image{
+		height:300px;
+		/*background:url(../images/phones/address/zone-800.png) center top no-repeat;*/
+		background-size:100% 100%;color:#fff;
+		-webkit-box-ordinal-group:2;
+		-webkit-order:1;
+		-ms-flex-order:1;
+		order:1}
+		
+	#address-info{background-position:0}
+	.zone-text-left h2{font-size:3.2em}
+	#membership-info td,#next-game-date{font-size:2rem}
+	.zone-text-left img{width:48px;height:48px}
+	
+	#membership-image{height:300px;background:url(../images/phones/prizes/prizes-800-dark.png) center top no-repeat;background-size:100% 100%}
+	#membership-image h2{font-size:4.8rem;margin:0;padding:1rem 1.5rem .5rem}
+	.cost-item{margin:0;padding:0;width:25%}
+	
+	
+	#next-game-image{height:300px;background:url(../images/phones/next-game/next-game-800-dark.jpg) center top no-repeat;background-size:100% 100%}
+	#next-game-text h1{font-size:3.5em;margin:15px 0}
+	#next-game{font-size:4rem}
+	#home-away{font-size:4.9rem}
+	
+	#club-stats-image{height:300px;background:url(../images/phones/sn/sn-800-dark.png) center top no-repeat;background-size:100% 100%;-webkit-box-ordinal-group:2;-webkit-order:1;-ms-flex-order:1;order:1}
+	#club-stats-image h2{font-size:5.5rem}
+	
+	.sidebar{Z-index:4;background:#00f;width:30%;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-flex:1;-webkit-flex:1 30%;-ms-flex:1 30%;flex:1 30%}
+	
+	#upcoming-events{background:#fff;border-top:none}
+	#upcoming-events h2{font-size:3.5rem;background:#000}
+	#upcoming-events td{font-size:1.8rem;text-align:center;padding:5px}
+	
+	.weekly-winners{width:100%;background:#fff;display:block}
+	.weekly-winners h2{font-size:3.5rem;background:#000;color:#ffb600;border:10px solid #fff}
+	.weekly-winners p{padding-top:0;text-align:center}
+	.weekly-winners td{font-size:1.8rem;text-align:center;padding:5px}
+	
+	#schedule h2,#weekly-specials h2{background:#000;font-size:3.5rem}
+	
+	#weekly-specials{padding-top:15px}
+	#weekly-specials p{font-size:1.8em}
+	#weekly-specials h4{font-size:2em}
+	
+	#menu{margin:0 0 15px;width:100px;height:35px;font-size:1.6rem;border-radius:2px}
+	
+	#schedule{background:#fff;color:#000;font-size:2rem;border-bottom:0}
+	#schedule h2{padding:5px;color:#ffb600;border:15px solid #fff;border-bottom:0}
+	.table-data-left,.table-img{font-size:1.6rem;text-align:left}
+	table{width:100%;margin:0 auto}
+	.table-data{width:30%;font-size:1.6rem;text-align:center;padding:5px 0}tr:nth-child(even){background:#eee}
+	#schedule img{padding-right:10px;padding-left:10px;max-width:65px;max-height:33px;text-align:left}
+	
+	.mini-logo{width:50px;height:25px}
+	.icon-bears-mini{background-position:0 -150px}
+	.icon-bengals-mini{background-position:0 -25px}
+	.icon-broncos-mini{background-position:-50px 0}
+	.icon-bills-mini{background-position:0 -100px}
+	.icon-browns-mini{background-position:-50px -25px}
+	.icon-cardinals-mini{background-position:0 -50px}
+	.icon-chargers-mini{background-position:-50px -50px}
+	.icon-chiefs-mini{background-position:0 -75px}
+	.icon-colts-mini{background-position:-50px -75px}
+	.icon-cowboys-mini{background-position:-100px 0}
+	.icon-dolphins-mini{background-position:-100px -25px}
+	.icon-eagles-mini{background-position:-100px -50px}
+	.icon-falcons-mini{background-position:-50px -150px}
+	.icon-giants-mini{background-position:-100px -75px}
+	.icon-jets-mini{background-position:-50px -100px}
+	.icon-lions-mini{background-position:-100px -150px}
+	.icon-packers-mini{background-position:-100px -100px}
+	.icon-panthers-mini{background-position:0 -125px}
+	.icon-patriots-mini{background-position:-50px -125px}
+	.icon-raiders-mini{background-position:0 -100px}
+	.icon-rams-mini{background-position:-50px -100px}
+	.icon-ravens-mini{background-position:-150px -25px}
+	.icon-redskins-mini{background-position:-150px -50px}
+	.icon-sanfran-mini{background-position:0 -125px}
+	.icon-texans-mini{background-position:-150px -150px}
+	.icon-titans-mini{background-position:0 -175px}
+	.icon-seahawks-mini{background-position:-50px -125px}	
+	.icon-vikings-mini{background-position:-150px -125px}
+	.table-data-left{width:30%;margin-top:10px}
+	
+	#news-feed{display:block;text-align:center;border:10px solid #fff;height:auto}
+	#news-feed img{padding:10px;background:#fff}
+	#article-container{width:100%;height:450px;padding-top:10px}
+	article{width:95%;margin:0 auto;padding:5px}
+	article h2{font-size:2em}
+	article h3{font-size:1.8em;padding:5px 0}
+	article h4{font-size:1.3em}
+	ul{list-style-type:none;padding:10px 0}
+	#photo-gallery{display:block;Z-index:3;font-size:0;background:#fff;padding:15px 0 0}
+	#photo-gallery h2{font-size:3.5rem}
+	.album-year{margin:15px 0 5px}
+	#photo-gallery h2 img{width:64px;height:64px;padding:10px;margin:0 auto}
+	#photo-gallery img{width:33.33%}
+	.gallery-img-container{overflow:hidden;position:relative;width:auto}
+	.gallery-img-container img{position:relative}
+	#img1{top:100px}
+	
+	.business-section{width:100%;background:#fff;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;border-bottom:none;padding-top:5px}
+	.business-section h2{background:#000;color:#ffb600;font-size:3.5rem;padding:7px;border:10px solid #fff}
+	.business-container img{width:250px}#hutson-dentistry{width:350px}
+	.business-info{width:87%;font-size:2.3rem;margin:0 auto;padding-bottom:25px}
+	#how-to-add-business p{width:85%;font-size:1.8rem}
+	.up-arrow{width:32px;height:32px;margin-top:15px}
+	.footer p{font-size:1.6em}}
+	
+	@media screen and (min-width:1650px){
+		#article-container{padding-top:10px;height:375px}}
+		
+	.animated{-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-fill-mode:both;animation-fill-mode:both}@-webkit-keyframes lightSpeedIn{0%{-webkit-transform:translate3d(100%,0,0) skewX(-30deg);transform:translate3d(100%,0,0) skewX(-30deg);opacity:0}60%{-webkit-transform:skewX(20deg);transform:skewX(20deg);opacity:1}80%{-webkit-transform:skewX(-5deg);transform:skewX(-5deg);opacity:1}100%{-webkit-transform:none;transform:none;opacity:1}}@keyframes lightSpeedIn{0%{-webkit-transform:translate3d(100%,0,0) skewX(-30deg);transform:translate3d(100%,0,0) skewX(-30deg);opacity:0}60%{-webkit-transform:skewX(20deg);transform:skewX(20deg);opacity:1}80%{-webkit-transform:skewX(-5deg);transform:skewX(-5deg);opacity:1}100%{-webkit-transform:none;transform:none;opacity:1}}.lightSpeedIn{-webkit-animation-name:lightSpeedIn;animation-name:lightSpeedIn;-webkit-animation-timing-function:ease-out}
