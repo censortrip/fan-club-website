@@ -9,5 +9,5 @@
 ### Technologies Used:
 
 
-Github pages link: https://sbullard.github.io/steelers-website-final/
+Github pages link: https://sbullard.github.io/steelers-club-website/
 
