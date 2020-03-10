@@ -6,8 +6,4 @@
 **It was designed with barebones html, css, and javascript; and used mustache.js for templating.**</br>
 **I maintained the site for three years until time constraints prevented me from continuing.**</br>
 
-### Technologies Used:
-
-
-Github pages link: https://sbullard.github.io/steelers-club-website/
-
+[View Site] (https://sbullard.github.io/steelers-club-website)
