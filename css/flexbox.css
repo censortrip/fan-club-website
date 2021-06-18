@@ -1,6 +1,7 @@
         img,
 p {
     width: 100%;
+    font-weight: 400;
 }
 
 dfn,
@@ -169,8 +170,8 @@ textarea {
     margin: 0
 }
 
+
 .wrapper,
-p,
 table {
     font-weight: 700
 }
